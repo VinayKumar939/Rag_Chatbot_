@@ -1,0 +1,14 @@
+# Ignore virtual environments and Python cache
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignore credentials and env files
+.env
+
+# Streamlit and system files
+.streamlit/
+.DS_Store
+
+# Optional: Vector index cache
+vector_store/
