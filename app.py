@@ -6,7 +6,7 @@ st.set_page_config(page_title="RAG Chatbot", layout="centered")
 st.title("📄 RAG-based Knowledge Retrieval Chatbot")
 
 # Load default PDF from /sample_docs if no upload
-DEFAULT_FILE = "sample_docs/insurance_policy.pdf"
+DEFAULT_FILE = "sample_docs/Vinay_Kumar_Interview_Questions1_Regenerated.pdf"
 
 uploaded_file = st.file_uploader("Upload a PDF document (optional)", type="pdf")
 
